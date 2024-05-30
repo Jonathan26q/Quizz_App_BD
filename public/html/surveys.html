@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuestas</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/wrapper.css">
+    <link rel="stylesheet" href="../style/radio.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header-color flex">
+        <div class="home-area header-color flex left">
+            <a href="../index.html" class="home-buttom"><i class="fas fa-crown"></i></a>
+            <div id="userText"></div>
+        </div>
+
+        <div class="header-color right low-margin-right">    
+            <div id="btnSite"></div>
+        </div>
+    </div>
+
+    <div class="body low-margin-top">
+        <div class="classroom-title-area flex">
+            <div class="flex left">
+                <h1 class="low-margin-left white-text">Lista de Encuestas<p id="classroomIdentifier"><p></h1>                
+            </div>
+        </div>
+
+        <div id="create-survey-button-presentation"></div>
+
+        <div class="total-width total-height flex">
+            <div class="surveys-zone">
+                <div id="warn-message"></div>
+                <div id="surveys-view"></div>    
+            </div>
+            <div class="right switch-zone">
+                <div id="warn-message"></div>
+                <div id="select-classroom-view"></div>
+            </div> 
+        </div>
+
+        <div class="overlay" id="divOne">
+            <div class="wrapper width-teacher">
+                <h2>Por favor, rellena el formulario</h2><a class="close" href="#">&times;</a>
+                <div class="content">
+                    <div class="container">
+                        <div class="low-margin-top">
+                            <div class="input-block">
+                                <input type="text" name="input-text" id="survey_name" autocomplete="off" required spellcheck="false">
+                                <span class="placeholder">
+                                  Titulo de la encuesta
+                                </span>
+                            </div>                    
+
+                            <div id="classroom-options"></div>
+
+                            <div class="align flex">
+                                <p>Selecciona el umbral del examen:</p>
+                                <div style="margin-left: 2%;" class="quantity">
+                                    <input id="quantity-umbral" type="number" min="100" step="100" value="100">
+                                </div>
+                            <div>
+                            </div class="align flex">
+                                <p>Selecciona el porcentaje:</p>
+                                <div class="quantity">
+                                    <input id="quantity-percent" type="number" min="1" max="100" step="1" value="10"> 
+                                </div>
+                            </div>
+
+                            <div class="align flex">
+                                <p>Selecciona el total de preguntas:</p>
+                                <div style="margin-left: 2%;" class="quantity">
+                                    <input id="quantity-questions" type="number" min="1" max="20" step="1" value="1">
+                                </div>
+                            </div>
+
+                            <div class="input-block">
+                                <input type="text" name="input-text" id="questions_include" autocomplete="off" required spellcheck="false">
+                                <span class="placeholder">
+                                  IDs de preguntas a incluir Ej: (1,2,3,4,5)
+                                </span>
+                            </div>
+                            
+                            <div class="align flex">
+                                <div>
+                                    <p>Tiempo maximo para presentar el examen (minutos):</p>
+                                    <div style="margin-left: 2%;" class="quantity">
+                                        <input id="time-survey" type="number" min="1" step="1" value="1">
+                                    </div>
+                                </div>
+
+                                <div class="input-block">
+                                    <input type="text" name="input-text" id="date-survey" autocomplete="off" required spellcheck="false">
+                                    <span class="placeholder">
+                                      Fecha para presentar el examen (Formato: dd/mm/aaaa)
+                                    </span>
+                                </div>  
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="right medium-margin-right">
+                            <button class="btn btn-save-classroom" id="createClassroomBtn" type="submit" onclick="createSurvey(event)">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/util/transport.js"></script>
+    <script src="../js/presentation.js"></script>
+    <script src="../js/util/inputnumber.js"></script>
+    <script src="../js/util/questiontype.js"></script>
+    <script src="../js/util/dropdown.js"></script>
+    <script src="../js/surveys.js"></script>
+</body>
+</html>

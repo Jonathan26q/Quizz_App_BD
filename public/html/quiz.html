@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/wrapper.css">
+    <link rel="stylesheet" href="../style/game.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header-color flex">
+        <div class="home-area header-color flex left">
+            <a href="../index.html" class="home-buttom"><i class="fas fa-crown"></i></a>
+            <div id="userText"></div>
+        </div>
+
+        <div class="header-color right low-margin-right">    
+            <div id="btnSite"></div>
+        </div>
+    </div>
+
+    <div class="body" style="margin-top:0">
+        <div class="game-container">
+            <div id="hud" class="left flex">
+                <div class="white-text hud-item" style="margin-top: 1%;margin-left: 10%;">
+                    <p id="progressText" class="hud-prefix">
+                        Pregunta
+                    </p>
+                    <div id="progressBar" style="margin-bottom: 10%;">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+            
+                <!-- Aqui va un cronometro del tiempo que queda para responder la pregunta -->
+                <div class="white-text hud-item" style="margin-top: 1%; margin-right: 10%;">
+                    <p class="hud-prefix">
+                        Tiempo restante
+                    </p>
+                    <h1 class="hud-main-text" id="time">
+                        0
+                    </h1>
+                </div>
+
+                <div class="white-text hud-item" style="margin-top: 1%; margin-right: 10%;">
+                    <p class="hud-prefix">
+                        Puntaje
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div id="game" class="question-statement-area">
+                    <div id="option-text-image"></div>
+                </div>
+    
+                <div class="choices-area">
+                    <div class="choiches-area-presentation">
+                        <div id="load-choices"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay" id="divOne">
+                <div class="wrapper width-student">
+                    <a class="close" href="#">&times;</a>
+                    <div style="width: 92%">
+                        <img style="object-fit: cover;" id="title-image" src=""/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay" id="divTwo">
+                <div class="wrapper width-student">
+                    <a class="close" href="#">&times;</a>
+                    <p class="reduced-width" id="option-text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/util/transport.js"></script>
+    <script src="../js/presentation.js"></script>
+    <script src="../js/quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/notification.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header-color flex">
+        <div class="home-area header-color flex left">
+            <a href="index.html" class="home-buttom"><i class="fas fa-crown"></i></a>
+            <div id="userText"></div>
+        </div>
+        
+        <div class="header-color right low-margin-right">    
+            <div id="notification_container">
+                <div id="notification_space" class="notification" onclick="toggleNotification()">
+                    <span id="notification_icon" class="icon">&#128276;</span> <!-- Icono de campana -->
+                </div>
+                <div id="notification_detail" class="notification-detail">
+                    <p id="notificación_message"></p>
+                    <span class="icon">&#128276;</span>
+                </div>
+            </div>
+            <div id="btnSite" value="index"></div>
+        </div>
+    </div>
+            
+    <div class="body">
+        <h1 class="ready-text white-text">EvaluApp</h1>
+        <a id="classrooms-redirect" class="btn index-buttons btn-classroom-index">Aulas</a>
+        <a id="banks-redirect" class="btn index-buttons btn-bank">Bancos</a>
+        <a id="surveys-redirect" class="btn index-buttons btn-quest">Encuesta<i class="fas fa-crown"></i></a>        
+    </div>
+
+    <script src="./js/util/transport.js"></script>
+    <script src="./js/presentation.js"></script>
+</body>
+</html>

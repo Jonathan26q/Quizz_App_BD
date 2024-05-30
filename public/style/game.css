@@ -1,0 +1,125 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.game-container {
+    width: 100%;
+}
+
+.quiz-question{
+    margin-top: 5%;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    border-radius: 4px;
+    background: rgb(80, 125, 221);
+    font-size: 1.7rem;
+}
+
+.img-quiz-question-title{
+    background: aqua;
+    height: 20em;
+    width: 100%;
+}
+
+.question-statement-area{
+    width: 38%;
+    border: 1px solid rgb(52, 56, 66);
+}
+
+.choices-area{
+    width: 62%;
+    border: 1px solid rgb(52, 56, 66);
+}
+
+.choiches-area-presentation{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 6%;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1em;    
+    color: white;
+}
+
+.choice-text {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+/* Heads up Display */
+#hud {
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgb(52, 56, 66);
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 15rem;
+    height: 2rem;
+    border: 0.2rem solid rgb(11,223,36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(11,223,36);
+    width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
+
+#load-choices {
+    color: white;
+}
+
+.blank-input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: auto;
+    text-align: center;
+}

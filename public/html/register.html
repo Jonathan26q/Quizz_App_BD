@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/radio.css">
+    <link rel="stylesheet" href="../style/register_login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header-color flex">
+        <div class="home-area header-color flex left">
+            <a href="../index.html" class="home-buttom"><i class="fas fa-crown"></i></a>
+            <div id="userText"></div>
+        </div>
+
+        <div class="header-color right low-margin-right">    
+            <div id="btnSite"></div>
+        </div>
+    </div>
+
+    <div class="register-body">
+      <div class="container">
+        <div class="form">            
+            <div class="title">Bienvenido</div>
+            <div class="subtitle">Por favor, ingresa tus datos para el registro</div>
+            <div class="input-container ic1">
+              <input id="username" class="input" type="text" autocomplete="off" required placeholder=" " />
+              <div class="cut"></div>
+              <label for="username" class="placeholder">Usuario</label>
+            </div>
+            <div class="input-container ic2">
+              <input id="password" class="input" type="password" autocomplete="off" required placeholder=" " />
+              <div class="cut"></div>
+              <label for="password" class="placeholder">Contraseña</label>
+            </div>
+
+            <div class="input-container ic2">
+                <ul>
+                    <li style="height: 100px;">
+                      <input type="radio" id="teacher" name="selector">
+                      <label for="teacher">Profesor</label>                      
+                      <div class="check"></div>
+                    </li>
+                    
+                    <li style="height: 100px;" class="li-inside">
+                      <input type="radio" id="student" name="selector">
+                      <label for="student">Estudiante</label>                      
+                      <div class="check"></div>
+                    </li>
+                </ul>
+            </div>  
+
+            <div class="input-container align-remember-text">
+              <div class="medium-margin-top">
+                  <p class="white-text low-font">¿Ya tienes una cuenta? <a href="./login.html" class="link-text">Inicia sesión aquí</a> </p>
+              </div>
+            </div>
+
+          <button type="submit" id="saveUserBtn" class="submit" onclick="saveUser(event)" disabled>Registrar</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="../js/util/transport.js"></script>
+    <script src="../js/register.js"></script>
+    <script src="../js/presentation.js"></script>
+</body>
+</html>

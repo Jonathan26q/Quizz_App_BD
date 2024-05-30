@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear preguntas</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/wrapper.css">
+    <link rel="stylesheet" href="../style/radio.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header-color flex">
+        <div class="home-area header-color flex left">
+            <a href="../index.html" class="home-buttom"><i class="fas fa-crown"></i></a>
+            <div id="userText"></div>
+        </div>
+
+        <div class="header-color right low-margin-right">    
+            <div id="btnSite"></div>
+        </div>
+    </div>
+
+    <div class="body low-margin-top"> 
+        <div class="classroom-title-area flex">
+            <div>
+                <h1 id="bankIndicatorText" class="low-margin-left white-text"></h1>
+                <p id="classroomIndicatorText" style="margin-left: 5em;" class="white-text"></p>
+            </div>
+        </div>
+
+        <div id="create-question-button"></div>
+
+        <div class="total-width">
+            <div id="warn-message"></div>
+            <div id="load_questions"></div>
+            <div id="load_questions_view"></div>
+        </div>
+
+        <div class="overlay" id="divOne">
+            <div class="wrapper size-createq">
+                <h2>Por favor, rellena el formulario</h2><a class="close" href="#">&times;</a>
+                <div class="extra-size-content flex">
+                    <div class="container low-margin-top">                        
+                        <select class="old-select">
+                            <option value="default" selected>Selecciona el tipo de pregunta</option>
+                            
+                            <option value="Eleccion unica">Elección unica</option>
+                            <option value="Eleccion multiple">Elección múltiple</option>
+                            <option value="Verdadero/Falso">Verdadero/Falso</option>
+                            <option value="Llena los espacios">Llena los espacios</option>
+                            <option value="Subir un link">Subir un link</option>                   
+                            </select>
+                        
+                        <div class="new-select">
+                            <div class="selection">
+                                <p>
+                                    <span></span>
+                                    <i></i>
+                                </p>
+                                <span></span>
+                            </div>
+                        </div>
+                             
+                        <div class="input-block">
+                            <input type="text" id="title-text" name="input-text" id="classroom_section" required autocomplete="off" spellcheck="false">
+                            <span class="placeholder">
+                                Enunciado
+                            </span>
+                        </div>
+
+                        <div class="input-block">
+                            <input type="text" id="image-url" name="input-text" id="classroom_section" autocomplete="off" spellcheck="false">
+                            <span class="placeholder">
+                                URL (Opcional)
+                            </span>
+                        </div>
+
+                        <label class="checkbox-createq-margin toggler-wrapper style-23">
+                            <input type="checkbox">
+                            <div class="toggler-slider">
+                                <div class="toggler-knob"></div>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="right" style="overflow-y: auto;display: block; margin-right: 1em;width: 50%;height:20em;">
+                        <div class="create-question question_create_area">
+                            <a href="">
+                                <div class="total-width total-height white-text flex align center">                     
+                                    <i class="fas fa-plus"></i>
+                                    <p style="margin-left: 1em;" class="small-font white-text" id="classroom_button_text"></p>                    
+                                </div>   
+                            </a>                                 
+                        </div>
+                        <div id="total-list">
+                            <ul class="list" style="margin-left: 1.5em;margin-top: 2%;margin-bottom: 2%;"></ul>
+                        </div>
+                    </div>
+
+                    <div class="right medium-margin-right">
+                        <button class="btn btn-save-classroom" id="createQuestionBtn" type="submit">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/util/transport.js"></script>
+    <script src="../js/presentation.js"></script>
+    <script src="../js/questioncreator.js"></script>
+    <script src="../js/util/questiontype.js"></script>
+    <script src="../js/util/optioncreator.js"></script>    
+</body>
+</html>

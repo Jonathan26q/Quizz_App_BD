@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/wrapper.css">
+    <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header-color flex">
+        <div class="home-area header-color flex left">
+            <a href="../index.html" class="home-buttom"><i class="fas fa-crown"></i></a>
+            <div id="userText"></div>
+        </div>
+
+        <div class="header-color right low-margin-right">    
+            <div id="btnSite"></div>
+        </div>
+    </div>
+            
+    <div class="low-margin-top">
+        <div class="classroom-title-area flex">
+            <div class="left">
+                <h1 id="classroom-presentation-text" class="low-margin-left white-text">Lista de Estudiantes</h1>                
+            </div>            
+        </div>
+
+        <div class="flex">
+            <div style="margin-top:1em;margin-left: 5em;" class="classroom_button_area white-text">
+                <div class="total-width">
+                    <img src="https://gstatic.com/classroom/themes/img_bookclub.jpg">                                                
+                </div>
+                <div class="classroom_name_area">
+                    <div id="classroom_name" class="classroom_name"></div>
+                    <div id="classroom_section" class="classroom_section"></div>
+                </div>
+                <div style="margin-left: 1em;" id="classroom_code_text"></div>
+                <div class="folder-icon-area right">
+                    <i style="margin-bottom: 1em;" class="fa fa-folder-open"></i>
+                </div>
+            </div>
+
+            <div style="margin-left: 1em; margin-top: 1em;" class="total-width total-heigth">
+                <div id="load-classroom-data"></div>
+            </div>
+        </div>
+
+        <button id="download-all-reports">Descargar reporte</button>
+
+        <div class="overlay" id="divOne">
+            <div style="height: 65%; width: 60%" class="wrapper size-createq">
+                <h2>Visualización de estadísticas</h2><a class="close" href="#">&times;</a>
+                <div class="extra-size-content flex">
+                    <div class="container low-margin-top">
+                        <div style="height: 20em; width: 50em;" id="chart"></div>
+                        <div id="links"></div>
+                        <button id="download-reports" class="btn">Descargar reporte</button>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/util/transport.js"></script>
+    <script src="../js/presentation.js"></script>    
+    <script src="../js/classroom.js"></script>
+</body>
+</html>

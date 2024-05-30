@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+:root {
+    background-color: rgb(29, 26, 26)
+}
+
+.test{
+    display: flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nova Square', cursive;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.total-width{
+    width: 100%;
+} 
+
+.total-height {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.header-color {
+    background-color: rgb(24, 23, 23)
+}
+
+.home-area {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.home-buttom {
+    color: #ffac00;
+    margin-bottom: 15px;
+}
+
+.presentation-text {
+    margin-top: 1em;
+    margin-left: 2em;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    width: 14rem;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+    border-radius: 4px;
+}
+
+.btn-save {
+    border-radius: 0.8em;
+}
+
+.btn-save-classroom {    
+    cursor: pointer;
+    background: #0DFF92;
+    border-radius: 1em;
+    padding: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 7em;
+    font-size: 1em;
+}
+
+.link-reference{
+    cursor:pointer;
+    width: 7em;
+    font-size: 1em;
+}
+
+.link-option-reference{
+    font-size: 0.7em;
+}
+
+.body{
+    display: flex;
+    margin-top: 6%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.low-font {
+    font-size: small;
+}
+
+.large-font{
+    font-size: xx-large;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.link-text{
+    color: aqua;
+}
+
+.ready-text{
+    font-size: 5em;
+}
+
+.low-margin-left {
+    margin-left: 2em;
+}
+
+.low-margin-right {
+    margin-right: 0.5em;
+}
+
+.medium-margin-right {
+    margin-top: 25%;
+    margin-right: 1em;
+    height: fit-content;
+}
+
+.low-margin-top {
+    margin-top: 1%;
+}
+
+.top-margin {
+    margin-top: 3%;
+}
+
+.medium-margin-top {
+    margin-top: 6%;
+}
+
+.high-top-margin {
+    margin-top: 9%;
+}
+
+.bottom-margin {
+    margin-bottom: 5%;
+}
+
+.end-text {
+    padding: 2%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.index-buttons {
+    cursor: pointer;
+    width: 12em;
+    font-size: 2em;
+}
+
+.btn-bank {
+    margin-top: -0.5%;
+    background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
+}
+
+.checkbox-createq-margin {
+    margin-left: 1em;
+}
+
+.reduced-width{
+    width: 90%;
+}
+
+.btn-quest{
+    margin-top: -0.5%;
+}
+
+.btn-clipboard {
+    width: 35%;
+    height: 2.7em;
+}
+
+.classroom-title-area{
+    width: 100%;
+    height: 7em;
+    align-items: center;
+    background-color: rgb(53, 48, 48);
+}
+
+.btn-classroom-index {
+    margin-top: 2%;
+    background: rgb(4, 196, 46);
+}
+
+.classrooms{
+    display: grid;
+    margin-top: 2em;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.banks{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5em;
+}
+
+.classroom_create_button {
+    border: 5px dashed rgb(114, 107, 107);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.classroom_button_area {
+    height: 19em;
+    width: 15em;
+    background-color: rgb(53, 48, 48);
+}
+
+.warn-message-presentation{
+    margin-top: 5%;
+    background: #0dfff3;
+    padding: 20px;
+    border: 2px solid #000000;
+    width: fit-content;
+}
+
+
+.warn-message-createq-presentation{
+    margin-top: 5%;
+    background: #0dfff3;
+    padding: 20px;
+    border: 2px solid #000000;
+    width: 23em;
+}
+
+.question_create_button {
+    border: 5px dashed rgb(114, 107, 107);
+}
+
+.question_button_area {
+    cursor: pointer;
+    height: 5em;
+    width: 85%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1%;
+    background-color: rgb(53, 48, 48);
+} 
+
+.question-title-view {
+    font-size: 1.5em;
+}
+
+.answers-presentation{
+    margin-left: 1em;
+}
+
+.survey-results-area{
+    display: grid;
+    margin-top: 2em;
+    column-gap: 1em;
+    row-gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 1em;
+}
+
+.survey-results-presentation{
+    margin-top: 10%;
+    background: rgb(93, 141, 185); 
+    border: 2px solid rgb(52, 123, 189);
+}
+
+.answers-option-presentation{
+    border: 1px solid rgb(44, 94, 94);
+    margin-top: 0.5em;
+}
+
+.answers-valid-option-presentation{
+    margin-top: 1%;
+    border: 3px solid rgb(54, 94, 44);
+}
+
+.question-area-presentation{
+    background: #444341;
+}
+
+.switch-zone{
+    margin-top: 1%;
+    margin-right: 1%;
+    height: 100%;
+}
+
+.surveys-zone {
+    width: 100%;
+    margin-right: 1%;
+    border: 3px solid #000000;
+}
+
+.survey-title-area { 
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.survey-title {
+    font-size: 1.3em;
+}
+
+.surveys-presentation-text{
+    font-size: 1.7em;
+    margin-top: 2%;
+    margin-left: 8%;
+    color: #ffac00;
+}
+
+.division{
+    margin-top: 3%;
+}
+
+.survey_button_area {
+    height: 5em;
+    width: 85%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: rgb(53, 48, 48);
+}
+
+.survey_create_button {
+    border: 5px dashed rgb(114, 107, 107);
+}
+
+.create-question{
+    height: 3em;
+    background-color: rgb(173, 207, 238);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.question-presentation {
+    border: 5px solid rgb(120, 179, 235);
+    background: rgb(173, 207, 238);
+    margin-left: 8%;
+    margin-right: 6%;
+    margin-top: 3%;
+}
+
+.questions-text-button{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.delete-question-button {
+    cursor:pointer;
+    background: rgb(226, 70, 70);
+    width: 8%;
+    font-size: 2em;
+    border: 2px solid rgb(54, 6, 6);
+}
+
+.question-title{
+    font-size: 2em;
+}
+
+.question-options-number {
+    font-size: 1em;
+}
+
+.question-id {
+    margin-bottom: 10px;
+}
+
+.question_create_area {
+    border: 5px dashed rgb(135, 163, 189);
+}
+
+.classroom_name_area {
+    background: #38352f;
+    height: 6em;
+}
+
+.classroom_name {
+    font-size: 1.6em;
+    margin-top: 0.5em;
+    margin-left: 0.6em;
+}
+
+.classroom_section {
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.folder-icon-area {
+    font-size: 1.6em;
+    color: rgb(132, 160, 138);
+    margin-top: 3.2em;
+    margin-right: 1em;
+}
+
+.code-task-classroom-area{
+    width: 16em;
+    background: aqua;
+}
+
+.img-holder {
+    height: 100%;
+    width: 60%;
+    margin-right: 5%;
+}
+
+.img-fit{
+    width: 60%;
+}
+
+.btn-close-session {
+    background: rgb(218, 31, 31);
+}
+
+.center {
+    justify-content: center;
+}
+
+.align {
+    align-items: center;
+}
+
+.number-selector{
+    height: 2em;
+    margin-left: -1em;
+}
+
+.text-input{
+    width: 24em;
+    height: 2em;
+}
+
+.fa-crown {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.entity-selector{
+    width: 10em;
+    margin-top: 1em;
+}
+
+.align-remember-text{
+    margin-top: 6em;
+    margin-left: 1em;
+}
+
+.end-form-container {
+    border: 10px solid rgb(27, 24, 24);
+    margin-top: 1%;
+    width: 50%;
+    background-color: rgb(53, 48, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.2em;
+}
+
+.classroom-code-show-block {
+    width: 50em;
+    max-width: 50rem;
+}
+
+.code-expo {
+    width: 10em;
+    height: 3em;
+    background-color:  rgb(216, 205, 205);
+    border: 5px solid rgb(27, 24, 24);
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.back-home-area {
+    margin-left: 80%;
+    background-color: rgb(24, 23, 23)
+}
+
+#download-all-reports {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    width: 12.4rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    border-radius: 4px;
+    margin-left: 5%;
+}

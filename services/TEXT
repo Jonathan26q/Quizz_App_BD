@@ -1,0 +1,235 @@
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Jordan', '123', '[125785]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Maria', '456', '[125786, 125787]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Pedro', '789', '[125788]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Luis', 'pass123', '[125789]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Ana', 'pass456', '[125790, 125791]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Javier', 'pass123', '[125792, 125793]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Carla', 'pass456', '[125794]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Roberto', 'pass789', '[125795, 125796]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Sofía', 'pass012', '[125797]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Manuel', 'pass345', '[125798, 125799]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Laura', 'pass678', '[125800]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Diego', 'pass901', '[125801, 125802]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Alejandra', 'pass234', '[125803]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Andrés', 'pass567', '[125804, 125805]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Natalia', 'pass890', '[125806]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Gustavo', 'pass123', '[125807, 125808]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Gabriela', 'pass456', '[125809]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Sergio', 'pass789', '[125810, 125811]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Catalina', 'pass012', '[125812]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Martín', 'pass345', '[125813, 125814]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Lucía', 'pass678', '[125815]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Felipe', 'pass901', '[125816, 125817]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Valentina', 'pass234', '[125818]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Nicolás', 'pass567', '[125819, 125820]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Camila', 'pass890', '[125821]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Matías', 'pass123', '[125822, 125823]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Isabella', 'pass456', '[125824]');
+INSERT INTO teachers (username, password, classroomCodes) VALUES ('Emilio', 'pass789', '[125825, 125826]');
+
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Antonio', '123', '[125785]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Mauricio', '123', '[125785]', '[{"key":232636,"surveyTitle":"Examen de Administración","classroomId":"125785","quantity":3}]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Ana', '456', '[125786]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Juan', '789', '[125786]', '[{"key":232637,"surveyTitle":"Examen de Matemáticas","classroomId":"125786","quantity":2}]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Laura', '012', '[125787]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Carlos', '345', '[125787, 125788]', '[{"key":232638,"surveyTitle":"Examen de Física","classroomId":"125788","quantity":4}]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Sofía', '678', '[125788]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Marcos', 'pass789', '[125789]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Lucía', 'pass012', '[125790]', '[{"key":232639,"surveyTitle":"Examen de Historia","classroomId":"125790","quantity":5}]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Alejandro', 'pass123', '[125789]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Isabella', 'pass456', '[125790]', '[]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Santiago', 'pass789', '[125791]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Valentina', 'pass012', '[125792]', '[]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Matías', 'pass345', '[125793]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Renata', 'pass678', '[125794]', '[]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Tomás', 'pass901', '[125795]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Camila', 'pass234', '[125796]', '[]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Benjamín', 'pass567', '[125797]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Emilia', 'pass890', '[125798]', '[]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Martín', 'pass123', '[125799]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Catalina', 'pass456', '[125800]', '[]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Sebastián', 'pass789', '[125801]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Lucía', 'pass012', '[125802]', '[]', '[]', 1);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Andrés', 'pass345', '[125803]', '[]', '[]', 0);
+INSERT INTO students (username, password, classroomCodes, surveys, answers, getNotified) VALUES ('Sofía', 'pass678', '[125804]', '[]', '[]', 1);
+
+
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125785, 'Auditorio', '103', 'Administración III', 'Espacio de Auditorio', 'Jordan', '["Antonio"]', 1, '[{"key":232636,"surveyTitle":"Examen de Administración","classroomId":"125785","quantity":3}]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125786, 'Aula 101', '201', 'Matemáticas II', 'Edificio A', 'Maria', '["Ana", "Juan"]', 2, '[{"key":232637,"surveyTitle":"Examen de Matemáticas","classroomId":"125786","quantity":2}]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125787, 'Laboratorio', '301', 'Física I', 'Edificio B', 'Maria', '["Laura"]', 1, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125788, 'Aula 202', '402', 'Física II', 'Edificio C', 'Pedro', '["Carlos", "Sofía"]', 2, '[{"key":232638,"surveyTitle":"Examen de Física","classroomId":"125788","quantity":4}]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125789, 'Aula 301', '501', 'Literatura', 'Edificio D', 'Luis', '["Marcos"]', 1, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125790, 'Aula 302', '502', 'Historia', 'Edificio D', 'Ana', '["Lucía"]', 1, '[{"key":232639,"surveyTitle":"Examen de Historia","classroomId":"125790","quantity":5}]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125792, 'Aula 401', '601', 'Química', 'Edificio E', 'Javier', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125793, 'Aula 402', '602', 'Biología', 'Edificio E', 'Javier', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125794, 'Aula 501', '701', 'Economía', 'Edificio F', 'Carla', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125795, 'Aula 502', '702', 'Contabilidad', 'Edificio F', 'Roberto', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125796, 'Aula 503', '703', 'Finanzas', 'Edificio F', 'Roberto', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125797, 'Aula 601', '801', 'Derecho', 'Edificio G', 'Sofía', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125798, 'Aula 602', '802', 'Informática', 'Edificio G', 'Manuel', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125799, 'Aula 603', '803', 'Programación', 'Edificio G', 'Manuel', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125800, 'Aula 701', '901', 'Diseño Gráfico', 'Edificio H', 'Laura', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125801, 'Aula 702', '902', 'Arquitectura', 'Edificio H', 'Diego', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125802, 'Aula 703', '903', 'Ingeniería Civil', 'Edificio H', 'Diego', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125803, 'Aula 801', '1001', 'Marketing', 'Edificio I', 'Alejandra', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125804, 'Aula 802', '1002', 'Recursos Humanos', 'Edificio I', 'Andrés', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125805, 'Aula 803', '1003', 'Administración de Empresas', 'Edificio I', 'Andrés', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125806, 'Aula 901', '1101', 'Psicología', 'Edificio J', 'Natalia', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125807, 'Aula 902', '1102', 'Sociología', 'Edificio J', 'Gustavo', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125808, 'Aula 903', '1103', 'Filosofía', 'Edificio J', 'Gustavo', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125809, 'Aula 1001', '1201', 'Idiomas', 'Edificio K', 'Gabriela', '[]', 0, '[]');
+INSERT INTO classrooms (classroomCode, classroomName, classroomSection, classroomSubject, classroomPlace, teacherUsername, studentsUsernameList, totalStudents, surveys) VALUES (125810, 'Aula 1002', '1202', 'Música', 'Edificio K', 'Sergio', '[]', 0, '[]');
+
+INSERT INTO banks (key) VALUES (1);
+INSERT INTO banks (key, classroomCode) VALUES (194670, 125785);
+INSERT INTO banks (key, classroomCode) VALUES (778012, 125786);
+INSERT INTO banks (key, classroomCode) VALUES (326784, 125787);
+INSERT INTO banks (key, classroomCode) VALUES (887451, 125788);
+INSERT INTO banks (key, classroomCode) VALUES (632547, 125789);
+INSERT INTO banks (key, classroomCode) VALUES (445789, 125790);
+INSERT INTO banks (key, classroomCode) VALUES (567123, 125792);
+INSERT INTO banks (key, classroomCode) VALUES (983654, 125793);
+INSERT INTO banks (key, classroomCode) VALUES (112233, 125794);
+INSERT INTO banks (key, classroomCode) VALUES (445566, 125795);
+INSERT INTO banks (key, classroomCode) VALUES (778899, 125796);
+INSERT INTO banks (key, classroomCode) VALUES (123456, 125797);
+INSERT INTO banks (key, classroomCode) VALUES (789012, 125798);
+INSERT INTO banks (key, classroomCode) VALUES (345678, 125799);
+INSERT INTO banks (key, classroomCode) VALUES (901234, 125800);
+INSERT INTO banks (key, classroomCode) VALUES (567890, 125801);
+INSERT INTO banks (key, classroomCode) VALUES (234567, 125802);
+INSERT INTO banks (key, classroomCode) VALUES (890123, 125803);
+INSERT INTO banks (key, classroomCode) VALUES (456789, 125804);
+INSERT INTO banks (key, classroomCode) VALUES (123789, 125805);
+INSERT INTO banks (key, classroomCode) VALUES (456123, 125806);
+INSERT INTO banks (key, classroomCode) VALUES (789456, 125807);
+INSERT INTO banks (key, classroomCode) VALUES (234890, 125808);
+INSERT INTO banks (key, classroomCode) VALUES (678345, 125809);
+INSERT INTO banks (key, classroomCode) VALUES (910111, 125810);
+
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (32636, 'Examen de Administración', 125785, 3);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (32637, 'Examen de Matemáticas', 125786, 2);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (32638, 'Examen de Física', 125788, 4);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (32639, 'Examen de Historia', 125790, 5);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (32640, 'Examen de Química', 125792, 3);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (32641, 'Examen de Biología', 125793, 4);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (32642, 'Examen de Economía', 125794, 5);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (32643, 'Examen de Contabilidad', 125795, 2);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (32644, 'Examen de Finanzas', 125796, 3);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232645, 'Examen de Derecho', 125797, 4);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232646, 'Examen de Informática', 125798, 5);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232647, 'Examen de Programación', 125799, 3);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232648, 'Examen de Diseño Gráfico', 125800, 2);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232649, 'Examen de Arquitectura', 125801, 4);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232650, 'Examen de Ingeniería Civil', 125802, 3);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232651, 'Examen de Marketing', 125803, 5);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232652, 'Examen de Recursos Humanos', 125804, 2);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232653, 'Examen de Administración de Empresas', 125805, 3);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232654, 'Examen de Psicología', 125806, 4);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232655, 'Examen de Sociología', 125807, 5);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232656, 'Examen de Filosofía', 125808, 3);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232657, 'Examen de Idiomas', 125809, 2);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232658, 'Examen de Música', 125810, 4);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232659, 'Examen de Arte', 125811, 3);
+INSERT INTO surveys (key, surveyTitle, classroomId, quantity) VALUES (232660, 'Examen de Literatura', 125812, 5);
+
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Antonio', '232636', 100, 300);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Juan', '232637', 80, 100);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Carlos', '232638', 120, 200);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Lucía', '232639', 180, 300);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Juan', '232639', 220, 300);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Alejandro', '232640', 75, 150);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Isabella', '232641', 180, 200);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Santiago', '232642', 240, 300);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Valentina', '232643', 90, 100);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Matías', '232644', 135, 150);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Renata', '232645', 200, 250);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Tomás', '232646', 280, 350);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Camila', '232647', 120, 150);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Benjamín', '232648', 80, 100);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Emilia', '232649', 170, 200);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Martín', '232650', 135, 150);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Catalina', '232651', 250, 300);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Sebastián', '232652', 90, 100);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Lucía', '232653', 140, 150);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Andrés', '232654', 180, 250);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Sofía', '232655', 220, 300);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Laura', '232656', 135, 150);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Carlos', '232657', 80, 100);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Ana', '232658', 160, 200);
+INSERT INTO scores (studentUsername, surveyId, score, maxScore) VALUES ('Mauricio', '232659', 120, 150);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('En la heladería del LIFO, las bolas de helado se ponen en el cono, en el orden exacto en que las pidas. ¿En qué orden las tienes que pedir, para obtener el helado que se muestra en la imágen? Elige la opción correcta.', 'https://i.imgur.com/wgTf4xQ.jpg', '[{"title":"Chocolate, multifruta y mora.","url":"","valid":false},{"title":"Mora, chocolate y multifruta.","url":"","valid":false},{"title":"Chocolate, mora y multifruta.","url":"","valid":false},{"title":"Mora, multifruta y chocolate.","url":"","valid":true}]', 1, 1, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('Una princesa tiene una pulsera mágica (ver imagen), la pulsera está unida, imagine que de repente la pulsera se abre, ¿cómo luciría? (ver imagenes de opciones):', 'https://i.imgur.com/nMG22pJ.png', '[{"title":"Opción D)","url":"https://i.imgur.com/08CUrBj.jpg","valid":false},{"title":"Opción A)","url":"https://i.imgur.com/kZo8cvU.jpg","valid":false},{"title":"Opción B)","url":"https://i.imgur.com/tZ9Hwyq.jpg","valid":true},{"title":"Opción C)","url":"https://i.imgur.com/9s4rkHc.jpg","valid":false}]', 1, 1, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cual es el camino más corto para que el prisionero escape sin que el guardia lo vea? (Ver imagen)', 'https://i.imgur.com/slF3hTF.png', '[{"title":"→→→↑","url":"","valid":false},{"title":"←↓↓→→→→↑↑↑","url":"","valid":false},{"title":"↓↓→→→↑↑↑","url":"","valid":true},{"title":"↑←↑→→↓→","url":"","valid":false}]', 1, 1, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('Juan le hizo 4 fotos a Bella y quería darle la que más le gustase. Para saber qué foto le gustaba más, le hizo tres preguntas (ver imagen) ...¿Cuál crees que fue la foto que le regaló?', 'https://i.imgur.com/f8VGQEN.png', '[{"title":"Opción A)","url":"https://i.imgur.com/O4pSGGA.png","valid":false},{"title":"Opción D)","url":"https://i.imgur.com/i8xPVLp.png","valid":true},{"title":"Opción C)","url":"https://i.imgur.com/LFD2uIN.png","valid":false},{"title":"Opción B)","url":"https://i.imgur.com/3AEBY7w.png","valid":false}]', 1, 1, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuántas veces el guardia debe repetir la secuencia ↓→→ para llegar hasta donde se encuentra el prisionero? (ver imagen)', 'https://i.imgur.com/5HSlV4f.png', '[{"title":"x1","url":"","valid":false},{"title":"x3","url":"","valid":true},{"title":"x2","url":"","valid":false},{"title":"x5","url":"","valid":false}]', 1, 1, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuáles de estas cuatro afirmaciones son verdaderas? (ver imagen)', 'https://i.imgur.com/B51cMuM.jpg', '[{"title":"2 y 3","url":"","valid":false},{"title":"Ninguna","url":"","valid":false},{"title":"1 y 3","url":"","valid":true},{"title":"1 y 4","url":"","valid":false}]', 1, 1, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál de las siguientes NO es una función de la administración?', '', '[{"title":"Planificación","valid":false},{"title":"Organización","valid":false},{"title":"Dirección","valid":false},{"title":"Producción","valid":true}]', 0, 2, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál es el proceso mediante el cual se coordinan los recursos humanos y materiales para alcanzar los objetivos de la empresa?', '', '[{"title":"Marketing","valid":false},{"title":"Contabilidad","valid":false},{"title":"Administración","valid":true},{"title":"Finanzas","valid":false}]', 0, 2, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál de los siguientes NO es un principio de la administración según Henri Fayol?', '', '[{"title":"Unidad de mando","valid":false},{"title":"Autoridad y responsabilidad","valid":false},{"title":"Centralización","valid":false},{"title":"Motivación","valid":true}]', 0, 2, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál de las siguientes es una ventaja de la descentralización en una organización?', '', '[{"title":"Mayor control centralizado","valid":false},{"title":"Mayor flexibilidad y autonomía","valid":true},{"title":"Menor costo operativo","valid":false},{"title":"Mayor burocracia","valid":false}]', 0, 2, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál es el proceso mediante el cual se planifican, organizan, dirigen y controlan los recursos humanos de una empresa?', '', '[{"title":"Mercadotecnia","valid":false},{"title":"Finanzas","valid":false},{"title":"Administración de recursos humanos","valid":true},{"title":"Contabilidad","valid":false}]', 0, 2, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál de las siguientes NO es una técnica de control en la administración?', '', '[{"title":"Presupuestos","valid":false},{"title":"Auditorías","valid":false},{"title":"Informes","valid":false},{"title":"Planificación estratégica","valid":true}]', 0, 2, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál es el valor de x en la ecuación 3x + 5 = 17?', '', '[{"title":"2","valid":false},{"title":"4","valid":true},{"title":"6","valid":false},{"title":"8","valid":false}]', 0, 3, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('Si un rectángulo tiene un ancho de 4 metros y un perímetro de 20 metros, ¿cuál es su largo?', '', '[{"title":"6 metros","valid":true},{"title":"4 metros","valid":false},{"title":"8 metros","valid":false},{"title":"10 metros","valid":false}]', 0, 3, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál es el resultado de la operación (3x^2 - 2x + 5) si x = 2?', '', '[{"title":"17","valid":true},{"title":"15","valid":false},{"title":"19","valid":false},{"title":"21","valid":false}]', 0, 3, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('Si una hora y media equivale a 1.5 horas, ¿cuántas horas son 2.5 horas y media?', '', '[{"title":"4 horas","valid":true},{"title":"3.75 horas","valid":false},{"title":"5 horas","valid":false},{"title":"4.25 horas","valid":false}]', 0, 3, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál es el valor de y en la ecuación 2x + 3y = 15 si x = 3?', '', '[{"title":"3","valid":true},{"title":"4","valid":false},{"title":"2","valid":false},{"title":"5","valid":false}]', 0, 3, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('Si un objeto se mueve a una velocidad constante de 60 km/h, ¿cuánta distancia recorrerá en 3 horas?', '', '[{"title":"180 km","valid":true},{"title":"120 km","valid":false},{"title":"240 km","valid":false},{"title":"200 km","valid":false}]', 0, 3, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál es la unidad de medida de la fuerza en el Sistema Internacional (SI)?', '', '[{"title":"Newton (N)","valid":true},{"title":"Julio (J)","valid":false},{"title":"Vatio (W)","valid":false},{"title":"Pascal (Pa)","valid":false}]', 0, 5, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál es la ley que describe la relación entre la fuerza aplicada a un objeto y su aceleración?', '', '[{"title":"Ley de Hooke","valid":false},{"title":"Ley de Ohm","valid":false},{"title":"Ley de la gravitación universal","valid":false},{"title":"Segunda ley de Newton","valid":true}]', 0, 5, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('Si un objeto se mueve a velocidad constante, ¿cuál es su aceleración?', '', '[{"title":"Cero","valid":true},{"title":"Negativa","valid":false},{"title":"Positiva","valid":false},{"title":"Desconocida","valid":false}]', 0, 5, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál es la ecuación que describe la relación entre la energía cinética y la masa de un objeto en movimiento?', '', '[{"title":"E = mc^2","valid":false},{"title":"E = 1/2 mv^2","valid":true},{"title":"E = mgh","valid":false},{"title":"E = Fd","valid":false}]', 0, 5, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál es la ley que describe la atracción gravitacional entre dos objetos masivos?', '', '[{"title":"Ley de Coulomb","valid":false},{"title":"Ley de Hooke","valid":false},{"title":"Ley de la gravitación universal","valid":true},{"title":"Ley de Ohm","valid":false}]', 0, 5, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál es la unidad de medida de la energía en el Sistema Internacional (SI)?', '', '[{"title":"Newton (N)","valid":false},{"title":"Julio (J)","valid":true},{"title":"Vatio (W)","valid":false},{"title":"Pascal (Pa)","valid":false}]', 0, 5, 0);
+
+INSERT INTO questions (title, url, options, isPublic, bankId, showToStudents)
+VALUES ('¿Cuál de las siguientes es una manifestación de la energía térmica?', '', '[{"title":"Sonido","valid":false},{"title":"Luz","valid":false},{"title":"Calor","valid":true},{"title":"Electricidad","valid":false}]', 0, 5, 0);

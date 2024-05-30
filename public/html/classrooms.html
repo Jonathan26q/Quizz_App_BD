@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/wrapper.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header-color flex">
+        <div class="home-area header-color flex left">
+            <a href="../index.html" class="home-buttom"><i class="fas fa-crown"></i></a>
+            <div id="userText"></div>
+        </div>
+
+        <div class="header-color right low-margin-right">    
+            <div id="btnSite"></div>
+        </div>
+    </div>
+            
+    <div class="body low-margin-top">        
+        <div class="classroom-title-area flex">
+            <div class="flex left">
+                <h1 class="low-margin-left white-text">Lista de Classrooms</h1>                
+            </div>
+        </div>
+
+        <div class="classrooms">
+            <div id="load_classrooms"></div>
+
+            <a id="classroom_add_button" href="">
+                <div class="classroom_button_area classroom_create_button">
+                    <div class="total-width total-height white-text flex align center">                     
+                        <i class="large-font fa fa-user"></i>
+                        <p style="margin-left: 1em;" class="small-font white-text" id="classroom_button_text"></p>                    
+                    </div>                
+                </div>
+            </a>
+
+            <div class="overlay" id="divOne">
+                <div class="wrapper width-teacher">
+                    <h2>Por favor, rellena el formulario</h2><a class="close" href="#">&times;</a>
+                    <div class="content">
+                        <div class="container">
+                            <div class="low-margin-top">
+                                <div class="input-block">
+                                    <input type="text" name="input-text" id="classroom_name" autocomplete="off" required spellcheck="false">
+                                    <span class="placeholder">
+                                      Nombre del aula (obligatorio)
+                                    </span>
+                                </div>
+                                <div class="input-block">
+                                    <input type="text" name="input-text" id="classroom_section" autocomplete="off" spellcheck="false">
+                                    <span class="placeholder">
+                                      Sección
+                                    </span>
+                                </div>
+                                <div class="input-block">
+                                    <input type="text" name="input-text" id="classroom_subject" autocomplete="off" spellcheck="false">
+                                    <span class="placeholder">
+                                      Materia
+                                    </span>
+                                </div>
+                                <div class="input-block">
+                                    <input type="text" name="input-text" id="classroom_place" autocomplete="off" spellcheck="false">
+                                    <span class="placeholder">
+                                      Aula
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div style="margin-top: 5%;" class="right medium-margin-right">
+                                <button class="btn btn-save-classroom" id="createClassroomBtn" type="submit" onclick="createClassroom(event)" disabled>Guardar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay" id="divTwo">
+                <div class="wrapper width-student">
+                    <h2>Unirme a clase</h2><a class="close" href="#">&times;</a>
+                    <div class="content">
+                        <div class="container">
+                            <div class="low-margin-top">
+                                <p>Pídele a tu profesor el código de clase e introdúcelo aquí.</p>
+                                <div style="margin-top:3%" class="input-block">
+                                    <input type="text" name="input-text" id="classroom_code" required spellcheck="false">
+                                    <span class="placeholder">
+                                        Código de Clase
+                                    </span>
+                                </div>
+                            </div>
+            
+                            <div style="margin-top: 5%;" class="right medium-margin-right">
+                                <button class="btn btn-save-classroom" id="joinClassroomBtn" type="submit" onclick="joinToClassroom(event)" disabled>Unirse</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/util/transport.js"></script>
+    <script src="../js/presentation.js"></script>
+    <script src="../js/classrooms.js"></script>
+</body>
+</html>

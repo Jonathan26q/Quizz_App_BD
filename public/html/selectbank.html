@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/wrapper.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>  
+    <div class="header-color flex">
+        <div class="home-area header-color flex left">
+            <a href="../index.html" class="home-buttom"><i class="fas fa-crown"></i></a>
+            <div id="userText"></div>
+        </div>
+
+        <div class="header-color right low-margin-right">    
+            <div id="btnSite"></div>
+        </div>
+    </div>
+
+    <div class="body low-margin-top">
+        <div class="classroom-title-area flex">
+            <div class="flex left">
+                <h1 class="low-margin-left white-text">Selección de Banco</h1>                
+            </div>
+        </div>
+        
+        <div class="banks">
+            <div id="private-bank"></div>
+
+            <a class="pointer" onclick="redirectToBank(event, 'public')">       
+                <div class="classroom_button_area white-text">
+                    <div class="total-width">
+                        <img src="https://gstatic.com/classroom/themes/img_bookclub.jpg">                                                
+                    </div>
+                    <div class="classroom_name_area">
+                        <div class="classroom_name"><p>Publico</p></div>
+                        <div class="classroom_section"><p>Preguntas globales de todas las encuestas</p></div>
+                    </div>
+                    <div class="folder-icon-area right">
+                        <i class="fa fa-folder-open"></i>
+                    </div>                    
+                </div>
+            </a>        
+        </div>
+    </div>
+
+    <script src="../js/util/transport.js"></script>
+    <script src="../js/presentation.js"></script>
+    <script src="../js/util/dropdown.js"></script>
+    <script src="../js/selectbank.js"></script>
+</body>
+</html>
